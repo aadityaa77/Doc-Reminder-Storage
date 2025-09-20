@@ -1,0 +1,38 @@
+{
+  "name": "doc-reminder-storage",
+  "version": "1.0.0",
+  "description": "A full-stack web application to help users securely store their important documents and get timely reminders before they expire.\r Built with Node.js, Express, MongoDB, and React, this project is designed to be simple, secure, and scalable.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadityaa77/Doc-Reminder-Storage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadityaa77/Doc-Reminder-Storage/issues"
+  },
+  "homepage": "https://github.com/aadityaa77/Doc-Reminder-Storage#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.18.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4"
+  }
+}
